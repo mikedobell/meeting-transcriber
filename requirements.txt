@@ -1,0 +1,4 @@
+assemblyai>=0.24.0
+hume>=0.13.0
+requests>=2.31.0
+rich>=13.0.0

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.python-version
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Credentials (NEVER commit these)
+*.pem
+*.key
+api_key
+api_keys/
+credentials/
+secrets/
+
+# Analysis output (may contain PII)
+*_analysis.json
+ingrid_*.json
+transcript_*.json
+
+# Local config
+~/.config/meeting-transcriber/
